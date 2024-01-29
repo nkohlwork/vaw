@@ -1,0 +1,10 @@
+apiVersion: tekton.dev/v1
+kind: TaskRun
+metadata:
+  name: taskrun-1
+spec:
+  serviceAccountName: "projects/nkohl-tipp-test/serviceAccounts/nkohl-sa-1@nkohl-tipp-test.iam.gserviceaccount.com"
+  taskSpec:
+    steps:
+    - image: ubuntu
+      script: echo hello!
