@@ -3,7 +3,7 @@ kind: Task
 metadata:
   name: invalid-task
 spec:
+  foobad: barbad
   steps:
   - image: ubuntu
     script: echo Not even really close.
-    foo: bar
