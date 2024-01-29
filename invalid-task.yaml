@@ -5,5 +5,5 @@ metadata:
 spec:
   steps:
   - image: ubuntu
-    script: echo Not even close.
+    script: echo Not even really close.
     foo: bar
