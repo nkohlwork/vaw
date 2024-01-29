@@ -6,3 +6,4 @@ spec:
   steps:
   - image: ubuntu
     script: echo Not even close.
+    foo: bar
