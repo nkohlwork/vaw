@@ -6,4 +6,4 @@ spec:
   foobad: barbad
   steps:
   - image: ubuntu
-    script: echo Not even really close.
+    script: echo Not even close 5.
