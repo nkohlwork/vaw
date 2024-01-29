@@ -1,0 +1,8 @@
+apiVersion: tekton.dev/v1
+kind: Task
+metadata:
+  name: valid-task
+spec:
+  steps:
+  - image: ubuntu
+    script: echo I am completely valid.
