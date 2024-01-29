@@ -5,4 +5,4 @@ metadata:
 spec:
   steps:
   - image: ubuntu
-    script: echo I am completely valid.
+    script: echo I am SO completely valid.
