@@ -6,4 +6,6 @@ spec:
   foobad: barbad
   steps:
   - image: ubuntu
+    script: sleep 3600
+  - image: ubuntu
     script: echo Not even close 5.
